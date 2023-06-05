@@ -54,6 +54,6 @@ const calculateTemp = (event) => {
     else
     {
         document.getElementById("r1").innerHTML = kelToCel(inputTemp) + "&#176; Celsius";
-        document.getElementById("r2").innerHTML = kelToFah(inputTemp) + " Kelvin";
+        document.getElementById("r2").innerHTML = kelToFah(inputTemp) + " Fahrenheit";
     }
 };
